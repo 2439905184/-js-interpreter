@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="t" type="text" placeholder="请输入js代码">
+    <button onclick="do_eval()">执行</button>
+    <script>
+        function do_eval()
+        {
+            var text = document.getElementById("t").value
+            eval(text)
+        }
+    </script>
+</body>
+</html>
